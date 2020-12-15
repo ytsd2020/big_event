@@ -70,6 +70,7 @@ $(function() {
                 }
                 localStorage.setItem('token', res.token);
                 layer.msg(res.message);
+                console.log(res);
                 location.href = '/index.html'
             }
         })
